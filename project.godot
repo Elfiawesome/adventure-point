@@ -11,12 +11,21 @@ config_version=5
 [application]
 
 config/name="adventure-point"
+run/main_scene="uid://ccvo7oujffbq4"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[debug]
+
+gdscript/warnings/untyped_declaration=2
 
 [dotnet]
 
 project/assembly_name="adventure-point"
+
+[editor]
+
+run/main_run_args="Single"
 
 [physics]
 
