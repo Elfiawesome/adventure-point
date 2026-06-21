@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c5tx47axdijkg"]
+
+[ext_resource type="Script" uid="uid://b0dgwqnyplqw5" path="res://scenes/game_session/game_session.gd" id="1_8mndh"]
+[ext_resource type="PackedScene" uid="uid://6jy8fvl7idbo" path="res://scenes/game_session/board_tile.tscn" id="2_ypo4w"]
+
+[node name="GameSession" type="Node2D" unique_id=783509012]
+script = ExtResource("1_8mndh")
+
+[node name="Tile" parent="." unique_id=423703819 instance=ExtResource("2_ypo4w")]

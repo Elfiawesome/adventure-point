@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://6jy8fvl7idbo"]
+
+[ext_resource type="Texture2D" uid="uid://bmvq51xp7dg61" path="res://assets/tiles/board_tile_slice.png" id="1_60jh3"]
+[ext_resource type="Script" uid="uid://ckob4gs4b08fe" path="res://scenes/game_session/board_tile.gd" id="2_62sqp"]
+
+[node name="BoardTile" type="NinePatchRect" unique_id=423703819]
+offset_left = 16.0
+offset_top = 19.0
+offset_right = 49.0
+offset_bottom = 46.0
+texture = ExtResource("1_60jh3")
+region_rect = Rect2(0, 0, 14, 14)
+patch_margin_left = 3
+patch_margin_top = 3
+patch_margin_right = 3
+patch_margin_bottom = 5
+script = ExtResource("2_62sqp")
