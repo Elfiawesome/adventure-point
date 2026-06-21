@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [gd_scene format=3 uid="uid://le6wvcuqrbhe"]
 
 [ext_resource type="Script" uid="uid://f0o20tcp8nrr" path="res://scenes/main.gd" id="1_main"]
@@ -10,3 +11,14 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_main")
+=======
+[gd_scene format=3 uid="uid://ccvo7oujffbq4"]
+
+[ext_resource type="Script" uid="uid://da7gc33a4sa81" path="res://scenes/main.gd" id="1_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://c5tx47axdijkg" path="res://scenes/game_session.tscn" id="1_o5qli"]
+
+[node name="Main" type="Node2D" unique_id=547151397]
+script = ExtResource("1_0wfyh")
+
+[node name="GameSession" parent="." unique_id=1516660653 instance=ExtResource("1_o5qli")]
+>>>>>>> f1c86ae08471e4e6372763b043d23ee61ff021b4

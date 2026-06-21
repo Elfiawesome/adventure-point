@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class_name MainScene extends Control
 
 static var SET_USERNAME: String = "NOT_SET"
@@ -12,3 +13,14 @@ func _ready() -> void:
 		add_child(game_session)
 	else: # Clients
 		add_child(game_session)
+=======
+extends Node2D
+
+func _ready() -> void:
+	var INSTANCE_USERNAME: String = OS.get_cmdline_args()[2]
+	
+	if INSTANCE_USERNAME == "Player1":
+		pass # Host
+	else:
+		pass # Connect
+>>>>>>> f1c86ae08471e4e6372763b043d23ee61ff021b4
